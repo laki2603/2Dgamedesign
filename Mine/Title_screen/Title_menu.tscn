@@ -1,0 +1,161 @@
+[gd_scene load_steps=52 format=2]
+
+[ext_resource path="res://src/levels/Title_screen/PlayButton.gd" type="Script" id=1]
+[ext_resource path="res://assets/school boy/run/run_027.png" type="Texture" id=2]
+[ext_resource path="res://assets/school boy/run/run_032.png" type="Texture" id=3]
+[ext_resource path="res://assets/school boy/run/run_038.png" type="Texture" id=4]
+[ext_resource path="res://assets/school boy/run/run_025.png" type="Texture" id=5]
+[ext_resource path="res://assets/school boy/run/run_012.png" type="Texture" id=6]
+[ext_resource path="res://assets/school boy/run/run_011.png" type="Texture" id=7]
+[ext_resource path="res://assets/school boy/run/run_013.png" type="Texture" id=8]
+[ext_resource path="res://assets/school boy/run/run_019.png" type="Texture" id=9]
+[ext_resource path="res://assets/school boy/run/run_031.png" type="Texture" id=10]
+[ext_resource path="res://assets/school boy/run/run_036.png" type="Texture" id=11]
+[ext_resource path="res://assets/school boy/run/run_021.png" type="Texture" id=12]
+[ext_resource path="res://assets/school boy/run/run_008.png" type="Texture" id=13]
+[ext_resource path="res://assets/school boy/run/run_039.png" type="Texture" id=14]
+[ext_resource path="res://assets/school boy/run/run_037.png" type="Texture" id=15]
+[ext_resource path="res://assets/school boy/run/run_000.png" type="Texture" id=16]
+[ext_resource path="res://assets/school boy/run/run_028.png" type="Texture" id=17]
+[ext_resource path="res://assets/school boy/run/run_016.png" type="Texture" id=18]
+[ext_resource path="res://assets/school boy/run/run_024.png" type="Texture" id=19]
+[ext_resource path="res://assets/school boy/run/run_030.png" type="Texture" id=20]
+[ext_resource path="res://assets/school boy/run/run_026.png" type="Texture" id=21]
+[ext_resource path="res://assets/school boy/run/run_041.png" type="Texture" id=22]
+[ext_resource path="res://assets/school boy/run/run_007.png" type="Texture" id=23]
+[ext_resource path="res://assets/school boy/run/run_042.png" type="Texture" id=24]
+[ext_resource path="res://assets/school boy/run/run_017.png" type="Texture" id=25]
+[ext_resource path="res://assets/school boy/run/run_022.png" type="Texture" id=26]
+[ext_resource path="res://assets/school boy/run/run_029.png" type="Texture" id=27]
+[ext_resource path="res://assets/school boy/run/run_006.png" type="Texture" id=28]
+[ext_resource path="res://assets/school boy/run/run_015.png" type="Texture" id=29]
+[ext_resource path="res://assets/school boy/run/run_001.png" type="Texture" id=30]
+[ext_resource path="res://assets/school boy/run/run_004.png" type="Texture" id=31]
+[ext_resource path="res://assets/school boy/run/run_002.png" type="Texture" id=32]
+[ext_resource path="res://assets/school boy/run/run_014.png" type="Texture" id=33]
+[ext_resource path="res://assets/school boy/run/run_040.png" type="Texture" id=34]
+[ext_resource path="res://assets/school boy/run/run_003.png" type="Texture" id=35]
+[ext_resource path="res://assets/school boy/run/run_020.png" type="Texture" id=36]
+[ext_resource path="res://assets/school boy/run/run_005.png" type="Texture" id=37]
+[ext_resource path="res://assets/school boy/run/run_023.png" type="Texture" id=38]
+[ext_resource path="res://assets/school boy/run/run_018.png" type="Texture" id=39]
+[ext_resource path="res://assets/school boy/run/run_009.png" type="Texture" id=40]
+[ext_resource path="res://assets/school boy/run/run_033.png" type="Texture" id=41]
+[ext_resource path="res://assets/school boy/run/run_034.png" type="Texture" id=42]
+[ext_resource path="res://assets/school boy/run/run_035.png" type="Texture" id=43]
+[ext_resource path="res://assets/school boy/run/run_010.png" type="Texture" id=44]
+[ext_resource path="res://assets/more fonts/KiriFont.ttf" type="DynamicFontData" id=45]
+[ext_resource path="res://src/levels/Title_screen/OPtion/OptionsButton.gd" type="Script" id=46]
+
+[sub_resource type="DynamicFont" id=1]
+size = 82
+outline_size = 7
+outline_color = Color( 0.988235, 0.745098, 0.0196078, 1 )
+font_data = ExtResource( 45 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 16 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 37 ), ExtResource( 28 ), ExtResource( 23 ), ExtResource( 13 ), ExtResource( 40 ), ExtResource( 44 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 33 ), ExtResource( 29 ), ExtResource( 18 ), ExtResource( 25 ), ExtResource( 39 ), ExtResource( 9 ), ExtResource( 36 ), ExtResource( 12 ), ExtResource( 26 ), ExtResource( 38 ), ExtResource( 19 ), ExtResource( 5 ), ExtResource( 21 ), ExtResource( 2 ), ExtResource( 17 ), ExtResource( 27 ), ExtResource( 20 ), ExtResource( 10 ), ExtResource( 3 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 11 ), ExtResource( 15 ), ExtResource( 4 ), ExtResource( 14 ), ExtResource( 34 ), ExtResource( 22 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 50.0
+} ]
+
+[sub_resource type="DynamicFont" id=3]
+size = 60
+font_data = ExtResource( 45 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 60
+font_data = ExtResource( 45 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 60
+font_data = ExtResource( 45 )
+
+[node name="Title_menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 1.26001
+margin_top = -3.77972
+margin_right = 1025.26
+margin_bottom = 596.22
+color = Color( 0.14902, 0, 0.443137, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 168.0
+margin_top = 81.0
+margin_right = 674.0
+margin_bottom = 174.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.329412, 0.462745, 1, 1 )
+text = "2D Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 726.627, 354.122 )
+scale = Vector2( 1.56864, 1.45815 )
+frames = SubResource( 2 )
+animation = "Idle"
+frame = 3
+speed_scale = 0.75
+playing = true
+
+[node name="PlayButton" type="Button" parent="."]
+margin_left = 236.324
+margin_top = 212.46
+margin_right = 440.324
+margin_bottom = 285.46
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.0431373, 0.623529, 0.4, 1 )
+custom_colors/font_color_hover = Color( 0.968627, 0.0156863, 1, 1 )
+custom_colors/font_color_pressed = Color( 0.909804, 0.0745098, 0.0745098, 1 )
+text = "Play"
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionsButton" type="Button" parent="."]
+margin_left = 179.0
+margin_top = 320.081
+margin_right = 525.0
+margin_bottom = 409.081
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0.0431373, 0.623529, 0.4, 1 )
+custom_colors/font_color_hover = Color( 0.968627, 0.0156863, 1, 1 )
+custom_colors/font_color_pressed = Color( 0.909804, 0.0745098, 0.0745098, 1 )
+text = "Options"
+flat = true
+script = ExtResource( 46 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ShopButton" type="Button" parent="."]
+margin_left = 243.0
+margin_top = 435.0
+margin_right = 452.0
+margin_bottom = 518.0
+custom_fonts/font = SubResource( 5 )
+custom_colors/font_color = Color( 0.0431373, 0.623529, 0.4, 1 )
+custom_colors/font_color_hover = Color( 0.968627, 0.0156863, 1, 1 )
+custom_colors/font_color_pressed = Color( 0.909804, 0.0745098, 0.0745098, 1 )
+text = "Shop"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_PlayButton_pressed"]
+[connection signal="pressed" from="OptionsButton" to="OptionsButton" method="_on_OptionsButton_pressed"]

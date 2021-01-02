@@ -1,0 +1,17 @@
+extends Area2D
+
+
+signal coin_collected
+
+#for player detection
+func _on_Coin_body_entered(body):
+	
+	$AnimationPlayer.play("Bounce")
+	emit_signal("coin_collected")
+	set_collision_mask_bit(0,false)
+	
+
+#to make coin vanish after collected
+func _on_AnimationPlayer_animation_finished(anim_name):
+	queue_free()
+
